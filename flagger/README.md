@@ -7,7 +7,7 @@ In this demonstration we use a canary deployment to progressively deliver a cont
 1.  **Terraform** is used to provision the underlying Kubernetes cluster that runs the workloads of the example cloud native application.  You can download and install Terraform for your platform using the [official installation guide][terraform-install].
 2.  **kubectl** is a command line tool used to run commands against the Kubernetes cluster.  You can download and install kubectl by following the installation instructions on the [official site][kube-site].
 3.  **Azure CLI** is a command line interface that is used with Azure Cloud platform.  You can download and install the Azure CLI by following the instructions on the [official website][azurecli-start].
-4.   **Flux** is a continuous deployment tool that can be used for management of workloads on a Kubernetes clusters using a GitOps approac.  You can download and install Flux by following the instructions in the getting [started guide][flux-start].
+4.   **Flux** is a continuous deployment tool that uses a GitOps approach to manage operations of workloads on a Kubernetes clusters.  You can download and install Flux by following the instructions in the getting [started guide][flux-start].
 5.  **Helm** is a package manager for Kubernetes.  You can download and install the Helm by following the instructions on the [official website][helm-start].
 5.   **Flagger** is a progressive delivery tool that can be used for advanced deployment procedures on Kubernetes clusters.  You can download and install Flagger by following the instructions in the [getting started guide][flagger-start].
 
