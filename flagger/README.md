@@ -14,7 +14,7 @@ In this demonstration we use a canary deployment to progressively deliver a cont
 ## Instructions
 This folder contains the example files for the Flagger demonstration.  Prior to applying these manifests on the Kubernetes cluster with GitOps you must build and store the container images into DockerHub using these [instructions][setup-instructions].  After completing those instructions, follow along with the steps in the course to deploy the resources to the cluster.
 
-Before starting the Flagger exercise, you must have provisioned a new kubernetes cluster on Azure with Terraform and have bootstrapped Flux in the cluster.  Flux must be configured to sync to the [flagger directory in the environment repository].  `kubectl` should also be configured with the AKS cluster.
+Before starting the Flagger exercise, you must have provisioned a new kubernetes cluster on Azure with Terraform and have bootstrapped Flux in the cluster.  Flux must be configured to sync to the flagger directory in this repository.  `kubectl` should also be configured with the AKS cluster.
 
 Both Flagger and NGINX are installed using helm charts, so before starting the exercise make sure Helm is installed.
 
