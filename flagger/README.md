@@ -4,7 +4,7 @@ This directory contains the example materials used in the Flagger demonstration 
 In this demonstration we use a canary deployment to progressively deliver a containerized application onto an AKS Kubernetes cluster using Flagger.
 
 ## Required Tools
-1.  **Terraform** is used as the underlying container platform for building and running containers.  You can download and install Docker for your platform using the [official installation guide][docker-install].
+1.  **Terraform** is used to provision the underlying Kubernetes cluster that runs the workloads of the example cloud native application.  You can download and install Terraform for your platform using the [official installation guide][terraform-install].
 2.  **kubectl** is a command line tool used to run commands against the Kubernetes cluster.  You can download and install kubectl by following the installation instructions on the [official site][kube-site].
 3.  **Azure CLI** is a command line interface that is used with Azure Cloud platform.  You can download and install the Azure CLI by following the instructions on the [official website][azurecli-start].
 4.   **Flux** is a continuous deployment tool that can be used for management of workloads on a Kubernetes clusters using a GitOps approac.  You can download and install Flux by following the instructions in the getting [started guide][flux-start].
@@ -69,5 +69,6 @@ http://kevinbowersoxteach.westus2.cloudapp.azure.com
 [setup-instructions]: https://github.com/LinkedInLearning/gitops-foundations-env-2892009#installing
 [flux-start]: https://fluxcd.io/docs/get-started/
 [flagger-start]: https://docs.flagger.app/
+[terraform-install]: https://learn.hashicorp.com/tutorials/terraform/install-cli?in=terraform/azure-get-started
 
 
